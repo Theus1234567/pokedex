@@ -1,0 +1,1910 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Região Kanto</title>
+    <link rel="icon" type="image/png" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style type="text/css">
+
+      html, body{
+        height: 100%;
+        background-color: rgb(56, 56, 56);  
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .breadcrumb{
+        display: flex;
+        margin: 0%;
+        background-color: rgb(255, 255, 144);
+        list-style-type: none;
+        justify-content: space-evenly;
+        padding: 15px 30px 15px 30px;
+      }
+
+      .img-pokemon{
+        display: flexbox;
+        height: auto;
+        width: 70px;
+        justify-content: flex-start;
+      }
+
+      .container{
+        height: auto;
+        width: auto;
+      }
+      
+      .content-list{
+        background-color: white;
+        height: 100%;
+        width: 85%;
+        margin: 40px;
+        max-width: 1236px;
+        position: relative;
+        padding: 20px 20px 20px 30px;
+      }
+
+      .img-background{
+        height: auto;
+        width: auto;
+        opacity: 0.4;
+        position:absolute;
+        width: 100%;
+      }
+
+      .img-background-config{
+        background-color: black;
+      }
+
+      .img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Garante que a imagem cubra o container */
+        position: relative;
+      }
+    </style>
+</head>
+<body>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <div class="img-config-logo">
+        <img src="https://th.bing.com/th/id/R.de8a0f82f1449b48f71828ede116ecd9?rik=gwf9F0ZL90b0tw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fpokemon-logo-png-pokemon-logo-text-png-1428-1390.png&ehk=xcPPKSYiaFwoVSTL9JMZq%2foHXfffz%2bbO4RjmbqQ5b6I%3d&risl=&pid=ImgRaw&r=0" alt="Pokemon"
+        class="img-pokemon">  
+      </div>
+          <li class="breadcrumb-item"><a href="">Início</a></li>
+          <li class="breadcrumb-item"><a href="">Categoria</a></li>
+          <li class="breadcrumb-item"><a href="">Treinador</a></li>
+          <li class="breadcrumb-item"><a href="">Cadastro</a></li>
+        </ol>
+      </nav>
+    <div class="img-background-config">  
+      <img src="https://i.postimg.cc/brpsj812/kanto-map-letsgo.png" class="img-background">
+    </div>
+<div class="container">
+  <div class="content-list">
+    <h1> Lista de Pokémons da Região Kanto </h1>
+    <p style="margin: 24px 0px 24px 0;"> A Região Kanto é a primeira região apresentada no universo Pokémon, conhecida por sua importância e influência na série. Localizada no mundo dos jogos Pokémon, Kanto é o cenário dos jogos Pokémon Red e Blue (e suas versões aprimoradas, como Pokémon FireRed e LeafGreen). <br>
+      Kanto é famosa por ser o ponto de partida da série e por seu papel fundamental na construção do mundo Pokémon.</p>
+    <h2 style="margin-bottom: 20px;">Lista de Pokémon com base na Pokédex Kanto</h2>
+
+    <div class="row" style="padding-left: 20px;">
+      <div col-sm-4>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/cf47f9fac4ed3037ff2a8ea83204e32aff8fb5f3.png" alt="Card image cap">
+          <div class="card-body">
+            <p>N° 0001</p>
+            <h5 class="card-title">Bulbasaur</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div col-sm-4>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/002.png" alt="Card image cap">
+          <div class="card-body">
+            <p>N° 0002</p>
+            <h5 class="card-title">Ivysaur</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div col-sm-4>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/003.png" alt="Card image cap">
+          <div class="card-body">
+            <p>N° 0003</p>
+            <h5 class="card-title">Venusaur</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" style="display: flex; padding-left: 15px;">
+        <div col-sm-4>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png" alt="Card image cap">
+            <div class="card-body">
+              <p>N° 0004</p>
+              <h5 class="card-title">Charmander</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div col-sm-4>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/005.png" alt="Card image cap">
+            <div class="card-body">
+              <p>N° 0005</p>
+              <h5 class="card-title">Charmeleon</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div col-sm-4>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/006.png" alt="Card image cap">
+            <div class="card-body">
+              <p>N° 0006</p>
+              <h5 class="card-title">Charizard</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="display: flex; padding-left: 15px;">
+          <div col-sm-4>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png" alt="Card image cap">
+              <div class="card-body">
+                <p>N° 0007</p>
+                <h5 class="card-title">Squirtle</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div col-sm-4>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/008.png" alt="Card image cap">
+              <div class="card-body">
+                <p>N° 0008</p>
+                <h5 class="card-title">Wartotle</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div col-sm-4>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/009.png" alt="Card image cap">
+              <div class="card-body">
+                <p>N° 0009</p>
+                <h5 class="card-title">Blastoise</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row" style="display: flex; padding-left: 15px;">
+            <div col-sm-4>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/010.png" alt="Card image cap">
+                <div class="card-body">
+                  <p>N° 0010</p>
+                  <h5 class="card-title">Caterpie</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div col-sm-4>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/011.png" alt="Card image cap">
+                <div class="card-body">
+                  <p>N° 0011</p>
+                  <h5 class="card-title">Metapod</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div col-sm-4>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/012.png" alt="Card image cap">
+                <div class="card-body">
+                  <p>N° 0012</p>
+                  <h5 class="card-title">Butterfree</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="row" style="display: flex; padding-left: 15px;">
+              <div col-sm-4>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                  <div class="card-body">
+                    <p>N° 0013</p>
+                    <h5 class="card-title">Weedle</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div col-sm-4>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                  <div class="card-body">
+                    <p>N° 0014</p>
+                    <h5 class="card-title">Kakuna</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div col-sm-4>
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                  <div class="card-body">
+                    <p>N° 0015</p>
+                    <h5 class="card-title">Beedrill</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row" style="display: flex; padding-left: 15px;">
+                <div col-sm-4>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p>N° 0016</p>
+                      <h5 class="card-title">Weedle</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div col-sm-4>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p>N° 0017</p>
+                      <h5 class="card-title">Kakuna</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div col-sm-4>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p>N° 0018</p>
+                      <h5 class="card-title">Beedrill</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row" style="display: flex; padding-left: 15px;">
+                  <div col-sm-4>
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                      <div class="card-body">
+                        <p>N° 0019</p>
+                        <h5 class="card-title">Weedle</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div col-sm-4>
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                      <div class="card-body">
+                        <p>N° 0020</p>
+                        <h5 class="card-title">Kakuna</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div col-sm-4>
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                      <div class="card-body">
+                        <p>N° 0021</p>
+                        <h5 class="card-title">Beedrill</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row" style="display: flex; padding-left: 15px;">
+                    <div col-sm-4>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                        <div class="card-body">
+                          <p>N° 0022</p>
+                          <h5 class="card-title">Weedle</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div col-sm-4>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                        <div class="card-body">
+                          <p>N° 0023</p>
+                          <h5 class="card-title">Kakuna</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div col-sm-4>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                        <div class="card-body">
+                          <p>N° 0024</p>
+                          <h5 class="card-title">Beedrill</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="row" style="display: flex; padding-left: 15px;">
+                      <div col-sm-4>
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                          <div class="card-body">
+                            <p>N° 0025</p>
+                            <h5 class="card-title">Weedle</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div col-sm-4>
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                          <div class="card-body">
+                            <p>N° 0026</p>
+                            <h5 class="card-title">Kakuna</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div col-sm-4>
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                          <div class="card-body">
+                            <p>N° 0027</p>
+                            <h5 class="card-title">Beedrill</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="row" style="display: flex; padding-left: 15px;">
+                        <div col-sm-4>
+                          <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p>N° 0028</p>
+                              <h5 class="card-title">Weedle</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div col-sm-4>
+                          <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p>N° 0029</p>
+                              <h5 class="card-title">Kakuna</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div col-sm-4>
+                          <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p>N° 0030</p>
+                              <h5 class="card-title">Beedrill</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="row" style="display: flex; padding-left: 15px;">
+                          <div col-sm-4>
+                            <div class="card" style="width: 18rem;">
+                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                              <div class="card-body">
+                                <p>N° 0031</p>
+                                <h5 class="card-title">Weedle</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div col-sm-4>
+                            <div class="card" style="width: 18rem;">
+                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                              <div class="card-body">
+                                <p>N° 0032</p>
+                                <h5 class="card-title">Kakuna</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div col-sm-4>
+                            <div class="card" style="width: 18rem;">
+                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                              <div class="card-body">
+                                <p>N° 0033</p>
+                                <h5 class="card-title">Beedrill</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="row" style="display: flex; padding-left: 15px;">
+                            <div col-sm-4>
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <p>N° 0034</p>
+                                  <h5 class="card-title">Weedle</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div col-sm-4>
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <p>N° 0035</p>
+                                  <h5 class="card-title">Kakuna</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div col-sm-4>
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <p>N° 0036</p>
+                                  <h5 class="card-title">Beedrill</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row" style="display: flex; padding-left: 15px;">
+                              <div col-sm-4>
+                                <div class="card" style="width: 18rem;">
+                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <p>N° 0037</p>
+                                    <h5 class="card-title">Weedle</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div col-sm-4>
+                                <div class="card" style="width: 18rem;">
+                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <p>N° 0038</p>
+                                    <h5 class="card-title">Kakuna</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div col-sm-4>
+                                <div class="card" style="width: 18rem;">
+                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <p>N° 0039</p>
+                                    <h5 class="card-title">Beedrill</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="row" style="display: flex; padding-left: 15px;">
+                                <div col-sm-4>
+                                  <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <p>N° 0040</p>
+                                      <h5 class="card-title">Weedle</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div col-sm-4>
+                                  <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <p>N° 0041</p>
+                                      <h5 class="card-title">Kakuna</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div col-sm-4>
+                                  <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <p>N° 0042</p>
+                                      <h5 class="card-title">Beedrill</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="row" style="display: flex; padding-left: 15px;">
+                                  <div col-sm-4>
+                                    <div class="card" style="width: 18rem;">
+                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                      <div class="card-body">
+                                        <p>N° 0043</p>
+                                        <h5 class="card-title">Weedle</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div col-sm-4>
+                                    <div class="card" style="width: 18rem;">
+                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                      <div class="card-body">
+                                        <p>N° 0044</p>
+                                        <h5 class="card-title">Kakuna</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div col-sm-4>
+                                    <div class="card" style="width: 18rem;">
+                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                      <div class="card-body">
+                                        <p>N° 0045</p>
+                                        <h5 class="card-title">Beedrill</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+
+                                  <div class="row" style="display: flex; padding-left: 15px;">
+                                    <div col-sm-4>
+                                      <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png" alt="Card image cap">
+                                        <div class="card-body">
+                                          <p>N° 0046</p>
+                                          <h5 class="card-title">Charmander</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div col-sm-4>
+                                      <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/005.png" alt="Card image cap">
+                                        <div class="card-body">
+                                          <p>N° 0047</p>
+                                          <h5 class="card-title">Charmeleon</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div col-sm-4>
+                                      <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/006.png" alt="Card image cap">
+                                        <div class="card-body">
+                                          <p>N° 0048</p>
+                                          <h5 class="card-title">Charizard</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                            
+                            
+                                    <div class="row" style="display: flex; padding-left: 15px;">
+                                      <div col-sm-4>
+                                        <div class="card" style="width: 18rem;">
+                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png" alt="Card image cap">
+                                          <div class="card-body">
+                                            <p>N° 0049</p>
+                                            <h5 class="card-title">Squirtle</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div col-sm-4>
+                                        <div class="card" style="width: 18rem;">
+                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/008.png" alt="Card image cap">
+                                          <div class="card-body">
+                                            <p>N° 0050</p>
+                                            <h5 class="card-title">Wartotle</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div col-sm-4>
+                                        <div class="card" style="width: 18rem;">
+                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/009.png" alt="Card image cap">
+                                          <div class="card-body">
+                                            <p>N° 0051</p>
+                                            <h5 class="card-title">Blastoise</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                            
+                            
+                                      <div class="row" style="display: flex; padding-left: 15px;">
+                                        <div col-sm-4>
+                                          <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/010.png" alt="Card image cap">
+                                            <div class="card-body">
+                                              <p>N° 0052</p>
+                                              <h5 class="card-title">Caterpie</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div col-sm-4>
+                                          <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/011.png" alt="Card image cap">
+                                            <div class="card-body">
+                                              <p>N° 0053</p>
+                                              <h5 class="card-title">Metapod</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div col-sm-4>
+                                          <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/012.png" alt="Card image cap">
+                                            <div class="card-body">
+                                              <p>N° 0054</p>
+                                              <h5 class="card-title">Butterfree</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                            
+                                        
+                                        <div class="row" style="display: flex; padding-left: 15px;">
+                                          <div col-sm-4>
+                                            <div class="card" style="width: 18rem;">
+                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                              <div class="card-body">
+                                                <p>N° 0055</p>
+                                                <h5 class="card-title">Weedle</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div col-sm-4>
+                                            <div class="card" style="width: 18rem;">
+                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                              <div class="card-body">
+                                                <p>N° 0056</p>
+                                                <h5 class="card-title">Kakuna</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div col-sm-4>
+                                            <div class="card" style="width: 18rem;">
+                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                              <div class="card-body">
+                                                <p>N° 0057</p>
+                                                <h5 class="card-title">Beedrill</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                            
+                            
+                                          <div class="row" style="display: flex; padding-left: 15px;">
+                                            <div col-sm-4>
+                                              <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                <div class="card-body">
+                                                  <p>N° 0058</p>
+                                                  <h5 class="card-title">Weedle</h5>
+                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div col-sm-4>
+                                              <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                <div class="card-body">
+                                                  <p>N° 0059</p>
+                                                  <h5 class="card-title">Kakuna</h5>
+                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div col-sm-4>
+                                              <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                <div class="card-body">
+                                                  <p>N° 0060</p>
+                                                  <h5 class="card-title">Beedrill</h5>
+                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                            
+                            
+                                            <div class="row" style="display: flex; padding-left: 15px;">
+                                              <div col-sm-4>
+                                                <div class="card" style="width: 18rem;">
+                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <p>N° 0061</p>
+                                                    <h5 class="card-title">Weedle</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div col-sm-4>
+                                                <div class="card" style="width: 18rem;">
+                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <p>N° 0062</p>
+                                                    <h5 class="card-title">Kakuna</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div col-sm-4>
+                                                <div class="card" style="width: 18rem;">
+                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <p>N° 0063</p>
+                                                    <h5 class="card-title">Beedrill</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                            
+                            
+                                              <div class="row" style="display: flex; padding-left: 15px;">
+                                                <div col-sm-4>
+                                                  <div class="card" style="width: 18rem;">
+                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                    <div class="card-body">
+                                                      <p>N° 0064</p>
+                                                      <h5 class="card-title">Weedle</h5>
+                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div col-sm-4>
+                                                  <div class="card" style="width: 18rem;">
+                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                    <div class="card-body">
+                                                      <p>N° 0065</p>
+                                                      <h5 class="card-title">Kakuna</h5>
+                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div col-sm-4>
+                                                  <div class="card" style="width: 18rem;">
+                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                    <div class="card-body">
+                                                      <p>N° 0066</p>
+                                                      <h5 class="card-title">Beedrill</h5>
+                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                            
+                            
+                                                <div class="row" style="display: flex; padding-left: 15px;">
+                                                  <div col-sm-4>
+                                                    <div class="card" style="width: 18rem;">
+                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <p>N° 0067</p>
+                                                        <h5 class="card-title">Weedle</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div col-sm-4>
+                                                    <div class="card" style="width: 18rem;">
+                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <p>N° 0068</p>
+                                                        <h5 class="card-title">Kakuna</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div col-sm-4>
+                                                    <div class="card" style="width: 18rem;">
+                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <p>N° 0069</p>
+                                                        <h5 class="card-title">Beedrill</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                            
+                            
+                                                  <div class="row" style="display: flex; padding-left: 15px;">
+                                                    <div col-sm-4>
+                                                      <div class="card" style="width: 18rem;">
+                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p>N° 0070</p>
+                                                          <h5 class="card-title">Weedle</h5>
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div col-sm-4>
+                                                      <div class="card" style="width: 18rem;">
+                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p>N° 0071</p>
+                                                          <h5 class="card-title">Kakuna</h5>
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div col-sm-4>
+                                                      <div class="card" style="width: 18rem;">
+                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p>N° 0072</p>
+                                                          <h5 class="card-title">Beedrill</h5>
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                            
+                            
+                                                    <div class="row" style="display: flex; padding-left: 15px;">
+                                                      <div col-sm-4>
+                                                        <div class="card" style="width: 18rem;">
+                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                          <div class="card-body">
+                                                            <p>N° 0073</p>
+                                                            <h5 class="card-title">Weedle</h5>
+                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div col-sm-4>
+                                                        <div class="card" style="width: 18rem;">
+                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                          <div class="card-body">
+                                                            <p>N° 0074</p>
+                                                            <h5 class="card-title">Kakuna</h5>
+                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div col-sm-4>
+                                                        <div class="card" style="width: 18rem;">
+                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                          <div class="card-body">
+                                                            <p>N° 0075</p>
+                                                            <h5 class="card-title">Beedrill</h5>
+                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                            
+                            
+                                                      <div class="row" style="display: flex; padding-left: 15px;">
+                                                        <div col-sm-4>
+                                                          <div class="card" style="width: 18rem;">
+                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p>N° 0076</p>
+                                                              <h5 class="card-title">Weedle</h5>
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        <div col-sm-4>
+                                                          <div class="card" style="width: 18rem;">
+                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p>N° 0077</p>
+                                                              <h5 class="card-title">Kakuna</h5>
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        <div col-sm-4>
+                                                          <div class="card" style="width: 18rem;">
+                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p>N° 0078</p>
+                                                              <h5 class="card-title">Beedrill</h5>
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                            
+                                                        <div class="row" style="display: flex; padding-left: 15px;">
+                                                          <div col-sm-4>
+                                                            <div class="card" style="width: 18rem;">
+                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                              <div class="card-body">
+                                                                <p>N° 0079</p>
+                                                                <h5 class="card-title">Weedle</h5>
+                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div col-sm-4>
+                                                            <div class="card" style="width: 18rem;">
+                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                              <div class="card-body">
+                                                                <p>N° 0080</p>
+                                                                <h5 class="card-title">Kakuna</h5>
+                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div col-sm-4>
+                                                            <div class="card" style="width: 18rem;">
+                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                              <div class="card-body">
+                                                                <p>N° 0081</p>
+                                                                <h5 class="card-title">Beedrill</h5>
+                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                            
+                            
+                                                          <div class="row" style="display: flex; padding-left: 15px;">
+                                                            <div col-sm-4>
+                                                              <div class="card" style="width: 18rem;">
+                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p>N° 0082</p>
+                                                                  <h5 class="card-title">Weedle</h5>
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div col-sm-4>
+                                                              <div class="card" style="width: 18rem;">
+                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p>N° 0083</p>
+                                                                  <h5 class="card-title">Kakuna</h5>
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div col-sm-4>
+                                                              <div class="card" style="width: 18rem;">
+                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p>N° 0084</p>
+                                                                  <h5 class="card-title">Beedrill</h5>
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                            
+                                                            <div class="row" style="display: flex; padding-left: 15px;">
+                                                              <div col-sm-4>
+                                                                <div class="card" style="width: 18rem;">
+                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                  <div class="card-body">
+                                                                    <p>N° 0085</p>
+                                                                    <h5 class="card-title">Weedle</h5>
+                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div col-sm-4>
+                                                                <div class="card" style="width: 18rem;">
+                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                  <div class="card-body">
+                                                                    <p>N° 0086</p>
+                                                                    <h5 class="card-title">Kakuna</h5>
+                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div col-sm-4>
+                                                                <div class="card" style="width: 18rem;">
+                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                  <div class="card-body">
+                                                                    <p>N° 0087</p>
+                                                                    <h5 class="card-title">Beedrill</h5>
+                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+
+
+                                                              <div class="row" style="display: flex; padding-left: 15px;">
+                                                                <div col-sm-4>
+                                                                  <div class="card" style="width: 18rem;">
+                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png" alt="Card image cap">
+                                                                    <div class="card-body">
+                                                                      <p>N° 0088</p>
+                                                                      <h5 class="card-title">Charmander</h5>
+                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                                <div col-sm-4>
+                                                                  <div class="card" style="width: 18rem;">
+                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/005.png" alt="Card image cap">
+                                                                    <div class="card-body">
+                                                                      <p>N° 0089</p>
+                                                                      <h5 class="card-title">Charmeleon</h5>
+                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                                <div col-sm-4>
+                                                                  <div class="card" style="width: 18rem;">
+                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/006.png" alt="Card image cap">
+                                                                    <div class="card-body">
+                                                                      <p>N° 0090</p>
+                                                                      <h5 class="card-title">Charizard</h5>
+                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                        
+                                                        
+                                                                <div class="row" style="display: flex; padding-left: 15px;">
+                                                                  <div col-sm-4>
+                                                                    <div class="card" style="width: 18rem;">
+                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png" alt="Card image cap">
+                                                                      <div class="card-body">
+                                                                        <p>N° 0091</p>
+                                                                        <h5 class="card-title">Squirtle</h5>
+                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div col-sm-4>
+                                                                    <div class="card" style="width: 18rem;">
+                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/008.png" alt="Card image cap">
+                                                                      <div class="card-body">
+                                                                        <p>N° 0092</p>
+                                                                        <h5 class="card-title">Wartotle</h5>
+                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div col-sm-4>
+                                                                    <div class="card" style="width: 18rem;">
+                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/009.png" alt="Card image cap">
+                                                                      <div class="card-body">
+                                                                        <p>N° 0093</p>
+                                                                        <h5 class="card-title">Blastoise</h5>
+                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                        
+                                                        
+                                                                  <div class="row" style="display: flex; padding-left: 15px;">
+                                                                    <div col-sm-4>
+                                                                      <div class="card" style="width: 18rem;">
+                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/010.png" alt="Card image cap">
+                                                                        <div class="card-body">
+                                                                          <p>N° 0094</p>
+                                                                          <h5 class="card-title">Caterpie</h5>
+                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div col-sm-4>
+                                                                      <div class="card" style="width: 18rem;">
+                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/011.png" alt="Card image cap">
+                                                                        <div class="card-body">
+                                                                          <p>N° 0095</p>
+                                                                          <h5 class="card-title">Metapod</h5>
+                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div col-sm-4>
+                                                                      <div class="card" style="width: 18rem;">
+                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/012.png" alt="Card image cap">
+                                                                        <div class="card-body">
+                                                                          <p>N° 0096</p>
+                                                                          <h5 class="card-title">Butterfree</h5>
+                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                        
+                                                                    
+                                                                    <div class="row" style="display: flex; padding-left: 15px;">
+                                                                      <div col-sm-4>
+                                                                        <div class="card" style="width: 18rem;">
+                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                          <div class="card-body">
+                                                                            <p>N° 0097</p>
+                                                                            <h5 class="card-title">Weedle</h5>
+                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div col-sm-4>
+                                                                        <div class="card" style="width: 18rem;">
+                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                          <div class="card-body">
+                                                                            <p>N° 0098</p>
+                                                                            <h5 class="card-title">Kakuna</h5>
+                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div col-sm-4>
+                                                                        <div class="card" style="width: 18rem;">
+                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                          <div class="card-body">
+                                                                            <p>N° 0099</p>
+                                                                            <h5 class="card-title">Beedrill</h5>
+                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                        
+                                                        
+                                                                      <div class="row" style="display: flex; padding-left: 15px;">
+                                                                        <div col-sm-4>
+                                                                          <div class="card" style="width: 18rem;">
+                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                            <div class="card-body">
+                                                                              <p>N° 0100</p>
+                                                                              <h5 class="card-title">Weedle</h5>
+                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div col-sm-4>
+                                                                          <div class="card" style="width: 18rem;">
+                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                            <div class="card-body">
+                                                                              <p>N° 0101</p>
+                                                                              <h5 class="card-title">Kakuna</h5>
+                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div col-sm-4>
+                                                                          <div class="card" style="width: 18rem;">
+                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                            <div class="card-body">
+                                                                              <p>N° 0102</p>
+                                                                              <h5 class="card-title">Beedrill</h5>
+                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                        
+                                                        
+                                                                        <div class="row" style="display: flex; padding-left: 15px;">
+                                                                          <div col-sm-4>
+                                                                            <div class="card" style="width: 18rem;">
+                                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                              <div class="card-body">
+                                                                                <p>N° 0103</p>
+                                                                                <h5 class="card-title">Weedle</h5>
+                                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div col-sm-4>
+                                                                            <div class="card" style="width: 18rem;">
+                                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                              <div class="card-body">
+                                                                                <p>N° 0104</p>
+                                                                                <h5 class="card-title">Kakuna</h5>
+                                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div col-sm-4>
+                                                                            <div class="card" style="width: 18rem;">
+                                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                              <div class="card-body">
+                                                                                <p>N° 0105</p>
+                                                                                <h5 class="card-title">Beedrill</h5>
+                                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                        
+                                                        
+                                                                          <div class="row" style="display: flex; padding-left: 15px;">
+                                                                            <div col-sm-4>
+                                                                              <div class="card" style="width: 18rem;">
+                                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                <div class="card-body">
+                                                                                  <p>N° 0106</p>
+                                                                                  <h5 class="card-title">Weedle</h5>
+                                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div col-sm-4>
+                                                                              <div class="card" style="width: 18rem;">
+                                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                <div class="card-body">
+                                                                                  <p>N° 0107</p>
+                                                                                  <h5 class="card-title">Kakuna</h5>
+                                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div col-sm-4>
+                                                                              <div class="card" style="width: 18rem;">
+                                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                <div class="card-body">
+                                                                                  <p>N° 0108</p>
+                                                                                  <h5 class="card-title">Beedrill</h5>
+                                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                        
+                                                        
+                                                                            <div class="row" style="display: flex; padding-left: 15px;">
+                                                                              <div col-sm-4>
+                                                                                <div class="card" style="width: 18rem;">
+                                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                  <div class="card-body">
+                                                                                    <p>N° 0109</p>
+                                                                                    <h5 class="card-title">Weedle</h5>
+                                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div col-sm-4>
+                                                                                <div class="card" style="width: 18rem;">
+                                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                  <div class="card-body">
+                                                                                    <p>N° 0110</p>
+                                                                                    <h5 class="card-title">Kakuna</h5>
+                                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div col-sm-4>
+                                                                                <div class="card" style="width: 18rem;">
+                                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                  <div class="card-body">
+                                                                                    <p>N° 0111</p>
+                                                                                    <h5 class="card-title">Beedrill</h5>
+                                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                        
+                                                        
+                                                                              <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                <div col-sm-4>
+                                                                                  <div class="card" style="width: 18rem;">
+                                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                    <div class="card-body">
+                                                                                      <p>N° 0112</p>
+                                                                                      <h5 class="card-title">Weedle</h5>
+                                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div col-sm-4>
+                                                                                  <div class="card" style="width: 18rem;">
+                                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                    <div class="card-body">
+                                                                                      <p>N° 0113</p>
+                                                                                      <h5 class="card-title">Kakuna</h5>
+                                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div col-sm-4>
+                                                                                  <div class="card" style="width: 18rem;">
+                                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                    <div class="card-body">
+                                                                                      <p>N° 0114</p>
+                                                                                      <h5 class="card-title">Beedrill</h5>
+                                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                        
+                                                        
+                                                                                <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                  <div col-sm-4>
+                                                                                    <div class="card" style="width: 18rem;">
+                                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                      <div class="card-body">
+                                                                                        <p>N° 0115</p>
+                                                                                        <h5 class="card-title">Weedle</h5>
+                                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div col-sm-4>
+                                                                                    <div class="card" style="width: 18rem;">
+                                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                      <div class="card-body">
+                                                                                        <p>N° 0116</p>
+                                                                                        <h5 class="card-title">Kakuna</h5>
+                                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div col-sm-4>
+                                                                                    <div class="card" style="width: 18rem;">
+                                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                      <div class="card-body">
+                                                                                        <p>N° 0117</p>
+                                                                                        <h5 class="card-title">Beedrill</h5>
+                                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                        
+                                                        
+                                                                                  <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                    <div col-sm-4>
+                                                                                      <div class="card" style="width: 18rem;">
+                                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                        <div class="card-body">
+                                                                                          <p>N° 0118</p>
+                                                                                          <h5 class="card-title">Weedle</h5>
+                                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                    <div col-sm-4>
+                                                                                      <div class="card" style="width: 18rem;">
+                                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                        <div class="card-body">
+                                                                                          <p>N° 0119</p>
+                                                                                          <h5 class="card-title">Kakuna</h5>
+                                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                    <div col-sm-4>
+                                                                                      <div class="card" style="width: 18rem;">
+                                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                        <div class="card-body">
+                                                                                          <p>N° 0120</p>
+                                                                                          <h5 class="card-title">Beedrill</h5>
+                                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                        
+                                                                                    <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                      <div col-sm-4>
+                                                                                        <div class="card" style="width: 18rem;">
+                                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                          <div class="card-body">
+                                                                                            <p>N° 0121</p>
+                                                                                            <h5 class="card-title">Weedle</h5>
+                                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                      <div col-sm-4>
+                                                                                        <div class="card" style="width: 18rem;">
+                                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                          <div class="card-body">
+                                                                                            <p>N° 0122</p>
+                                                                                            <h5 class="card-title">Kakuna</h5>
+                                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                      <div col-sm-4>
+                                                                                        <div class="card" style="width: 18rem;">
+                                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                          <div class="card-body">
+                                                                                            <p>N° 0123</p>
+                                                                                            <h5 class="card-title">Beedrill</h5>
+                                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                        
+                                                        
+                                                                                      <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                        <div col-sm-4>
+                                                                                          <div class="card" style="width: 18rem;">
+                                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                            <div class="card-body">
+                                                                                              <p>N° 0124</p>
+                                                                                              <h5 class="card-title">Weedle</h5>
+                                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                            </div>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                        <div col-sm-4>
+                                                                                          <div class="card" style="width: 18rem;">
+                                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                            <div class="card-body">
+                                                                                              <p>N° 0125</p>
+                                                                                              <h5 class="card-title">Kakuna</h5>
+                                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                            </div>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                        <div col-sm-4>
+                                                                                          <div class="card" style="width: 18rem;">
+                                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                            <div class="card-body">
+                                                                                              <p>N° 0126</p>
+                                                                                              <h5 class="card-title">Beedrill</h5>
+                                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                            </div>
+                                                                                          </div>
+                                                                                        </div>
+                                                        
+                                                                                        <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                          <div col-sm-4>
+                                                                                            <div class="card" style="width: 18rem;">
+                                                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                              <div class="card-body">
+                                                                                                <p>N° 0127</p>
+                                                                                                <h5 class="card-title">Weedle</h5>
+                                                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                          </div>
+                                                                                          <div col-sm-4>
+                                                                                            <div class="card" style="width: 18rem;">
+                                                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                              <div class="card-body">
+                                                                                                <p>N° 0128</p>
+                                                                                                <h5 class="card-title">Kakuna</h5>
+                                                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                          </div>
+                                                                                          <div col-sm-4>
+                                                                                            <div class="card" style="width: 18rem;">
+                                                                                              <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                              <div class="card-body">
+                                                                                                <p>N° 0129</p>
+                                                                                                <h5 class="card-title">Beedrill</h5>
+                                                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                          </div>
+
+
+                                                                                          <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                            <div col-sm-4>
+                                                                                              <div class="card" style="width: 18rem;">
+                                                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png" alt="Card image cap">
+                                                                                                <div class="card-body">
+                                                                                                  <p>N° 0130</p>
+                                                                                                  <h5 class="card-title">Charmander</h5>
+                                                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                            <div col-sm-4>
+                                                                                              <div class="card" style="width: 18rem;">
+                                                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/005.png" alt="Card image cap">
+                                                                                                <div class="card-body">
+                                                                                                  <p>N° 0131</p>
+                                                                                                  <h5 class="card-title">Charmeleon</h5>
+                                                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                            <div col-sm-4>
+                                                                                              <div class="card" style="width: 18rem;">
+                                                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/006.png" alt="Card image cap">
+                                                                                                <div class="card-body">
+                                                                                                  <p>N° 0132</p>
+                                                                                                  <h5 class="card-title">Charizard</h5>
+                                                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                            </div>
+                                                                                    
+                                                                                    
+                                                                                            <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                              <div col-sm-4>
+                                                                                                <div class="card" style="width: 18rem;">
+                                                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png" alt="Card image cap">
+                                                                                                  <div class="card-body">
+                                                                                                    <p>N° 0133</p>
+                                                                                                    <h5 class="card-title">Squirtle</h5>
+                                                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                              <div col-sm-4>
+                                                                                                <div class="card" style="width: 18rem;">
+                                                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/008.png" alt="Card image cap">
+                                                                                                  <div class="card-body">
+                                                                                                    <p>N° 0134</p>
+                                                                                                    <h5 class="card-title">Wartotle</h5>
+                                                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                              <div col-sm-4>
+                                                                                                <div class="card" style="width: 18rem;">
+                                                                                                  <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/009.png" alt="Card image cap">
+                                                                                                  <div class="card-body">
+                                                                                                    <p>N° 0135</p>
+                                                                                                    <h5 class="card-title">Blastoise</h5>
+                                                                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                              </div>
+                                                                                    
+                                                                                    
+                                                                                              <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                                <div col-sm-4>
+                                                                                                  <div class="card" style="width: 18rem;">
+                                                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/010.png" alt="Card image cap">
+                                                                                                    <div class="card-body">
+                                                                                                      <p>N° 0136</p>
+                                                                                                      <h5 class="card-title">Caterpie</h5>
+                                                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                    </div>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                                <div col-sm-4>
+                                                                                                  <div class="card" style="width: 18rem;">
+                                                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/011.png" alt="Card image cap">
+                                                                                                    <div class="card-body">
+                                                                                                      <p>N° 0137</p>
+                                                                                                      <h5 class="card-title">Metapod</h5>
+                                                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                    </div>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                                <div col-sm-4>
+                                                                                                  <div class="card" style="width: 18rem;">
+                                                                                                    <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/012.png" alt="Card image cap">
+                                                                                                    <div class="card-body">
+                                                                                                      <p>N° 0138</p>
+                                                                                                      <h5 class="card-title">Butterfree</h5>
+                                                                                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                    </div>
+                                                                                                  </div>
+                                                                                                </div>
+                                                                                    
+                                                                                                
+                                                                                                <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                                  <div col-sm-4>
+                                                                                                    <div class="card" style="width: 18rem;">
+                                                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                                      <div class="card-body">
+                                                                                                        <p>N° 0139</p>
+                                                                                                        <h5 class="card-title">Weedle</h5>
+                                                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                      </div>
+                                                                                                    </div>
+                                                                                                  </div>
+                                                                                                  <div col-sm-4>
+                                                                                                    <div class="card" style="width: 18rem;">
+                                                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                                      <div class="card-body">
+                                                                                                        <p>N° 0140</p>
+                                                                                                        <h5 class="card-title">Kakuna</h5>
+                                                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                      </div>
+                                                                                                    </div>
+                                                                                                  </div>
+                                                                                                  <div col-sm-4>
+                                                                                                    <div class="card" style="width: 18rem;">
+                                                                                                      <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                                      <div class="card-body">
+                                                                                                        <p>N° 0141</p>
+                                                                                                        <h5 class="card-title">Beedrill</h5>
+                                                                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                      </div>
+                                                                                                    </div>
+                                                                                                  </div>
+                                                                                    
+                                                                                    
+                                                                                                  <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                                    <div col-sm-4>
+                                                                                                      <div class="card" style="width: 18rem;">
+                                                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                                        <div class="card-body">
+                                                                                                          <p>N° 0142</p>
+                                                                                                          <h5 class="card-title">Weedle</h5>
+                                                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                    </div>
+                                                                                                    <div col-sm-4>
+                                                                                                      <div class="card" style="width: 18rem;">
+                                                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                                        <div class="card-body">
+                                                                                                          <p>N° 0143</p>
+                                                                                                          <h5 class="card-title">Kakuna</h5>
+                                                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                    </div>
+                                                                                                    <div col-sm-4>
+                                                                                                      <div class="card" style="width: 18rem;">
+                                                                                                        <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                                        <div class="card-body">
+                                                                                                          <p>N° 0144</p>
+                                                                                                          <h5 class="card-title">Beedrill</h5>
+                                                                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                    </div>
+                                                                                    
+                                                                                    
+                                                                                                    <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                                      <div col-sm-4>
+                                                                                                        <div class="card" style="width: 18rem;">
+                                                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                                          <div class="card-body">
+                                                                                                            <p>N° 0145</p>
+                                                                                                            <h5 class="card-title">Weedle</h5>
+                                                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                          </div>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                      <div col-sm-4>
+                                                                                                        <div class="card" style="width: 18rem;">
+                                                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                                          <div class="card-body">
+                                                                                                            <p>N° 0146</p>
+                                                                                                            <h5 class="card-title">Kakuna</h5>
+                                                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                          </div>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                      <div col-sm-4>
+                                                                                                        <div class="card" style="width: 18rem;">
+                                                                                                          <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                                          <div class="card-body">
+                                                                                                            <p>N° 0147</p>
+                                                                                                            <h5 class="card-title">Beedrill</h5>
+                                                                                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                          </div>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                    
+                                                                                    
+                                                                                                      <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                                        <div col-sm-4>
+                                                                                                          <div class="card" style="width: 18rem;">
+                                                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                                            <div class="card-body">
+                                                                                                              <p>N° 0148</p>
+                                                                                                              <h5 class="card-title">Weedle</h5>
+                                                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                            </div>
+                                                                                                          </div>
+                                                                                                        </div>
+                                                                                                        <div col-sm-4>
+                                                                                                          <div class="card" style="width: 18rem;">
+                                                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/014.png" alt="Card image cap">
+                                                                                                            <div class="card-body">
+                                                                                                              <p>N° 0149</p>
+                                                                                                              <h5 class="card-title">Kakuna</h5>
+                                                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                            </div>
+                                                                                                          </div>
+                                                                                                        </div>
+                                                                                                        <div col-sm-4>
+                                                                                                          <div class="card" style="width: 18rem;">
+                                                                                                            <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/015.png" alt="Card image cap">
+                                                                                                            <div class="card-body">
+                                                                                                              <p>N° 0150</p>
+                                                                                                              <h5 class="card-title">Beedrill</h5>
+                                                                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                            </div>
+                                                                                                          </div>
+                                                                                                          <div class="row" style="display: flex; padding-left: 15px;">
+                                                                                                            <div col-sm-4>
+                                                                                                              <div class="card" style="width: 18rem;">
+                                                                                                                <img class="card-img-top" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/013.png" alt="Card image cap">
+                                                                                                                <div class="card-body">
+                                                                                                                  <p>N° 0151</p>
+                                                                                                                  <h5 class="card-title">Weedle</h5>
+                                                                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                                                                </div>
+                                                                                                              </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                    
+                                                                                    
+                                                                                                          
+                                                                                                                                                                                                                                                                               
+
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
